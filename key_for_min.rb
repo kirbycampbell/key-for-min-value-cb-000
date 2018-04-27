@@ -8,8 +8,9 @@ def key_for_min_value(name_hash)
     if age < age_array[0]
       name_winner = name
     else
-    age_array = age
+    age_array[0] = age
     end
-  end
     name_winner
+  end
+
 end
