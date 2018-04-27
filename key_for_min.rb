@@ -7,5 +7,6 @@ def key_for_min_value(name_hash)
     if age < nil
       new_array = name
     end
+  end
     new_array
 end
